@@ -1,8 +1,8 @@
 public class searchinrowwiseandcolumnwisematrix{
     public static void main(String[] args) {
-        int arr [][] = {{1,2,3},{4,5,6},{7,8,9},{10,11,12}};
+        int arr [][] = {{1,2,3},{5,6,7},{10,11,12},{8,13,14}};
         int row = arr.length;
-        int target = 10;
+        int target = 13;
         for(int i = 0 ; i < row ; i++){
             int start = 0 ; 
             int end = arr[0].length-1;
